@@ -39,12 +39,17 @@ hugo server -D
 
 # Or... use this very repo as a submodule instead
 ```bash
+# You can't use submodules unless you're already using git. So let's start with that.
+git init
+
 # Start a new site, with Hugo.
-hugo new site .
+# --force is necessary because `git init` put stuff in here,
+# but hugo normally expects an empty folder.
+hugo new site . --force
 
 # Pull this repo in as a submodule.
 cd themes/
-git submodule add https://github.com/hiAndrewQuinn/hugo-plain-theme
+git submodule add https://github.com/hiAndrewQuinn/hugo-plain-theme.git
 cd ..
 
 # Tell Hugo we want to use the plain theme.
