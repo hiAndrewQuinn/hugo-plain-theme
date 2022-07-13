@@ -1,6 +1,8 @@
 # hugo-plain-theme
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
+![](example.gif)
+
 4 out of 5 web devs have experienced the following:
 
 1. _"Wow, Hugo sounds amazing! Let me try it out!"_
