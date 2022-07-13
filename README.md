@@ -67,3 +67,11 @@ hugo server -D
 ```
 
 I don't recommend it, because there are giant otherwise-useless GIFs in here you could probably do without. But it's an option if you want it - and a good way to dip your toes into the weird word of `git submodule`.
+
+There is **one big benefit** to using this as a submodule, however - and that's that it actually comes with **HTML comments in the rendered pages** to let you know exactly which layouts were pulled in, where.
+
+So, for example, when I use this theme to build out my [build-100-websites.fun](https://build-100-websites.fun) page, I can open the source code of any page generated with this theme and see comments for where the layouts begin and end:
+
+![](example-comment.gif)
+
+For someone who is totally new to Hugo, I think these simple guidepost comments will prove invaluable.
