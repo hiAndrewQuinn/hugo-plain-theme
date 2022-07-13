@@ -29,7 +29,7 @@ echo "Lorem ipsum dolor sit amet" >> content/_index.md
 # Why the index.html template is left BLANK BY DEFAULT so you see NOTHING BY DEFAULT
 # even if you somehow happen upon learning the post has to be named "_index.md" 
 # is beyond me.
-echo "{{ .Content }}" >> themes/hugo-plain-theme/layouts/_default/index.html
+echo "{{ .Content }}" >> themes/hugo-plain-theme/layouts/index.html
 
 # Serve the site, with drafts on. You should see it now.
 hugo server -D
