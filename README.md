@@ -38,6 +38,9 @@ hugo server -D
 ```
 
 # Or... use this very repo as a submodule instead
+
+![](example2.gif)
+
 ```bash
 # You can't use submodules unless you're already using git. So let's start with that.
 git init
@@ -62,3 +65,5 @@ echo "Lorem ipsum dolor sit amet" >> content/_index.md
 # Serve the site, with drafts on. You should see it now.
 hugo server -D
 ```
+
+I don't recommend it, because there are giant otherwise-useless GIFs in here you could probably do without. But it's an option if you want it - and a good way to dip your toes into the weird word of `git submodule`.
