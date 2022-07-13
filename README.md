@@ -36,3 +36,24 @@ echo "{{ .Content }}" >> themes/hugo-plain-theme/layouts/index.html
 # Serve the site, with drafts on. You should see it now.
 hugo server -D
 ```
+
+# Or... use this very repo as a submodule instead
+```bash
+# Start a new site, with Hugo.
+hugo new site .
+
+# Pull this repo in as a submodule.
+cd themes/
+git submodule add https://github.com/hiAndrewQuinn/hugo-plain-theme
+cd ..
+
+# Tell Hugo we want to use the plain theme.
+echo "theme = 'hugo-plain-theme'" >> config.toml
+
+# GOTCHA 1: Hugo doesn't start with any HTML content at all. So we will make some.
+hugo new _index.md
+echo "Lorem ipsum dolor sit amet" >> content/_index.md
+
+# Serve the site, with drafts on. You should see it now.
+hugo server -D
+```
