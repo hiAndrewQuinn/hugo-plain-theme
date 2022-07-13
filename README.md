@@ -1,7 +1,7 @@
 # hugo-plain-theme
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
-![](example.gif)
+![An animated GIF of running through the "build from scratch" source code, just to show it works exactly as-is.](example.gif)
 
 4 out of 5 web devs have experienced the following:
 
@@ -37,7 +37,7 @@ echo "{{ .Content }}" >> themes/hugo-plain-theme/layouts/index.html
 hugo server -D
 ```
 
-# Or... use this very repo as a submodule instead
+## Or... use this very repo as a submodule instead
 
 ![](example2.gif)
 
@@ -66,12 +66,18 @@ echo "Lorem ipsum dolor sit amet" >> content/_index.md
 hugo server -D
 ```
 
-I don't recommend it, because there are giant otherwise-useless GIFs in here you could probably do without. But it's an option if you want it - and a good way to dip your toes into the weird word of `git submodule`.
+I don't recommend it, because there are giant otherwise-useless GIFs in here you could probably do without. But it's an option if you want it - and a good way to dip your toes into the weird world of `git submodule`.
 
 There is **one big benefit** to using this as a submodule, however - and that's that it actually comes with **HTML comments in the rendered pages** to let you know exactly which layouts were pulled in, where.
 
-So, for example, when I use this theme to build out my [build-100-websites.fun](https://build-100-websites.fun) page, I can open the source code of any page generated with this theme and see comments for where the layouts begin and end:
+So, for example, when I use this theme to build out [`build-100-websites.fun`](https://build-100-websites.fun), I can open the source code of any page generated with this theme and see comments for where the layouts begin and end:
 
-![](example-comment.gif)
+![An example of an HTML comment, telling you that the HTML code rendered below was templated by the file stored in `themes/hugo-plain-themes/layouts/index.html`.](example-comment.gif)
 
 For someone who is totally new to Hugo, I think these simple guidepost comments will prove invaluable.
+
+## Deploying to Netlify: Things to check
+
+- [ ] Did you **add the theme as a proper submodule**?
+- [ ] Did you **set `drafts` to `False`** for `_index.html`? If you didn't, you'll likely still get a blank white screen, with the only HTML in there being a pair of empty `<pre></pre>` tags.
+- [ ] Did you **use `hugo --gc --minify`** for your build command? Both flags will save you some space, but `--gc`, I think, strips out the HTML comments the submodule provides.
