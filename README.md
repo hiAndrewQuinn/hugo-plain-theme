@@ -37,6 +37,8 @@ echo "{{ .Content }}" >> themes/hugo-plain-theme/layouts/index.html
 hugo server -D
 ```
 
+### [See it in action: A live example website generated from following those instructions exactly and nothing else](https://github.com/hiAndrewQuinn/hugo-plain-theme-example)
+
 ## Or... use this very repo as a submodule instead
 
 ![](example2.gif)
