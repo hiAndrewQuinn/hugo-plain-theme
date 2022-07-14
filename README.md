@@ -2,7 +2,8 @@
 
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
-![An animated GIF of running through the "build from scratch" source code, just to show it works exactly as-is.](/images/example.gif)
+![An animated GIF of running through the "build from scratch" source code, just to show it works exactly as-is.](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example.gif)
+
 
 4 out of 5 web devs have experienced the following:
 
@@ -42,7 +43,7 @@ hugo server -D
 
 ## Or... use this very repo as a submodule instead
 
-![Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it.](/images/example2.gif)
+![Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it.](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example2.gif)
 
 ```bash
 # You can't use submodules unless you're already using git. So let's start with that.
@@ -75,7 +76,7 @@ There is **one big benefit** to using this as a submodule, however - and that's 
 
 So, for example, when I use this theme to build out [`build-100-websites.fun`](https://build-100-websites.fun), I can open the source code of any page generated with this theme and see comments for where the layouts begin and end:
 
-![An example of an HTML comment, telling you that the HTML code rendered below was templated by the file stored in `themes/hugo-plain-themes/layouts/index.html`.](/images/example-comment.gif)
+![An example of an HTML comment, telling you that the HTML code rendered below was templated by the file stored in `themes/hugo-plain-themes/layouts/index.html`.](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example-comment.gif)
 
 For someone who is totally new to Hugo, I think these simple guidepost comments will prove invaluable.
 
@@ -87,5 +88,5 @@ For someone who is totally new to Hugo, I think these simple guidepost comments 
 
 ## Additional media: Splash images for [https://themes.gohugo.io/](https://themes.gohugo.io/)
 
-![Screenshot of an example site saying "lorem ipsum dolor sit amet"](/images/screenshot.png)
-![Smaller screenshot of an example site saying "lorem ipsum dolor sit amet"](/images/tn.png)
+![Screenshot of an example site saying "lorem ipsum dolor sit amet"](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/screenshot.png)
+![Smaller screenshot of an example site saying "lorem ipsum dolor sit amet"](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/tn.png)
