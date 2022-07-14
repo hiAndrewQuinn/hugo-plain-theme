@@ -2,7 +2,9 @@
 
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
-<img src="https://raw.githubusercontent.com/hiAndrewQuinn/hugo-plain-theme/master/.github/images/example.gif" alt="_An animated GIF of running through the 'build from scratch' source code, just to show it works exactly as-is." />
+![An animated GIF of running through the 'build from scratch' source code, just to show it works exactly as-is.](https://user-images.githubusercontent.com/53230903/178942076-edea1ce5-2b09-4ba7-bc1c-5a686a6590c7.gif)
+
+
 
 4 out of 5 web devs have experienced the following:
 
@@ -42,7 +44,8 @@ hugo server -D
 
 ## Or... use this very repo as a submodule instead
 
-<img src="https://raw.githubusercontent.com/hiAndrewQuinn/hugo-plain-theme/master/.github/images/example2.gif" alt="Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it." />
+![Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it.](https://user-images.githubusercontent.com/53230903/178942209-abb0c319-7c69-47d6-990b-0f9f9ac4e1f4.gif)
+
 
 ```bash
 # You can't use submodules unless you're already using git. So let's start with that.
@@ -73,7 +76,8 @@ There is **one big benefit** to using this as a submodule - and that's that it a
 
 So, for example, when I use this theme to build out [`build-100-websites.fun`](https://build-100-websites.fun), I can open the source code of any page generated with this theme and see comments for where the layouts begin and end:
 
-![_An example of an HTML comment, telling you that the HTML code rendered below was templated by the file stored in `themes/hugo-plain-themes/layouts/index.html`._](https://raw.githubusercontent.com/hiAndrewQuinn/hugo-plain-theme/master/.github/images/example-comment.gif)
+![An example of an HTML comment, telling you that the HTML code rendered below was templated by the file stored in `themes/hugo-plain-themes/layouts/index.html`.](https://user-images.githubusercontent.com/53230903/178942290-3adb07cd-d08a-4ea3-96ed-cd0c5896582b.gif)
+
 
 For someone who is totally new to Hugo, I think these simple guidepost comments will prove invaluable.
 
