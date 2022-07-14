@@ -1,4 +1,5 @@
 # hugo-plain-theme
+
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
 ![An animated GIF of running through the "build from scratch" source code, just to show it works exactly as-is.](/images/example.gif)
@@ -11,7 +12,7 @@ Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate i
 
 For whatever dumb fucking reason, Hugo, despite being an excellent static site generator for literally any other use case, makes it _unreasonably difficult_ to get a **single page of unformatted, uncomplicated, HTML** serving to your `localhost`.
 
-We're going to fix that. **From scratch.** Below is the _absolute simplest explanation_ of how you get 
+We're going to fix that. **From scratch.**
 
 ## Quickstart: Build your own `hugo-plain-theme` from scratch
 
