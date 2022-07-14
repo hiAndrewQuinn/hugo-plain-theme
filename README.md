@@ -81,6 +81,11 @@ For someone who is totally new to Hugo, I think these simple guidepost comments 
 
 ## Deploying to Netlify: Things to check
 
-- [ ] Did you **add the theme as a proper submodule**?
+- [ ] Did you **add the theme as a proper submodule**? Netlify will complain if you give it nested Git repos which aren't in a submodule relationship to one another.
 - [ ] Did you **set `drafts` to `False`** for `content/_index.md`? If you didn't, you'll likely still get a blank white screen, with the only HTML in there being a pair of empty `<pre></pre>` tags.
 - [ ] Did you **use `hugo --gc --minify`** for your build command? Both flags will save you some space, but `--gc`, I think, strips out the HTML comments the submodule provides.
+
+## Additional media: Splash images for [https://themes.gohugo.io/](https://themes.gohugo.io/)
+
+![Screenshot of an example site saying "lorem ipsum dolor sit amet"](/images/screenshot.png)
+![Smaller screenshot of an example site saying "lorem ipsum dolor sit amet"](/images/tn.png)
