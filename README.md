@@ -2,7 +2,7 @@
 
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
-<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example.gif" alt="_An animated GIF of running through the 'build from scratch' source code, just to show it works exactly as-is." />
+<img src="https://raw.githubusercontent.com/hiAndrewQuinn/hugo-plain-theme/master/.github/images/example.gif" alt="_An animated GIF of running through the 'build from scratch' source code, just to show it works exactly as-is." />
 
 4 out of 5 web devs have experienced the following:
 
@@ -42,7 +42,7 @@ hugo server -D
 
 ## Or... use this very repo as a submodule instead
 
-<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example2.gif" alt="Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it." />
+<img src="https://raw.githubusercontent.com/hiAndrewQuinn/hugo-plain-theme/master/.github/images/example2.gif" alt="Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it." />
 
 ```bash
 # You can't use submodules unless you're already using git. So let's start with that.
@@ -73,7 +73,7 @@ There is **one big benefit** to using this as a submodule - and that's that it a
 
 So, for example, when I use this theme to build out [`build-100-websites.fun`](https://build-100-websites.fun), I can open the source code of any page generated with this theme and see comments for where the layouts begin and end:
 
-![_An example of an HTML comment, telling you that the HTML code rendered below was templated by the file stored in `themes/hugo-plain-themes/layouts/index.html`._](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example-comment.gif)
+![_An example of an HTML comment, telling you that the HTML code rendered below was templated by the file stored in `themes/hugo-plain-themes/layouts/index.html`._](https://raw.githubusercontent.com/hiAndrewQuinn/hugo-plain-theme/master/.github/images/example-comment.gif)
 
 For someone who is totally new to Hugo, I think these simple guidepost comments will prove invaluable.
 
@@ -82,9 +82,3 @@ For someone who is totally new to Hugo, I think these simple guidepost comments 
 - [ ] Did you **add the theme as a proper submodule**? Netlify will complain if you give it nested Git repos which aren't in a submodule relationship to one another.
 - [ ] Did you **set `drafts` to `False`** for `content/_index.md`? If you didn't, you'll likely still get a blank white screen, with the only HTML in there being a pair of empty `<pre></pre>` tags.
 - [ ] Did you **use `hugo --gc --minify`** for your build command? Both flags will save you some space, but `--gc`, I think, strips out the HTML comments the submodule provides.
-
-## Additional media: Splash images for [https://themes.gohugo.io/](https://themes.gohugo.io/)
-
-<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/screenshot.png" alt="Screenshot of an example site saying 'lorem ipsum dolor sit amet'." />
-
-<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/tn.png" alt="Smaller screenshot of an example site saying 'lorem ipsum dolor sit amet'." />
