@@ -2,7 +2,8 @@
 
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
-![_An animated GIF of running through the "build from scratch" source code, just to show it works exactly as-is._](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example.gif)
+
+<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example.gif" alt="_An animated GIF of running through the 'build from scratch' source code, just to show it works exactly as-is."/>
 
 
 4 out of 5 web devs have experienced the following:
