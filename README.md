@@ -2,9 +2,7 @@
 
 Minimum viable Hugo. No CSS, no JS. HTML only. Instructions on how to generate in the README.
 
-
-<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example.gif" alt="_An animated GIF of running through the 'build from scratch' source code, just to show it works exactly as-is."/>
-
+<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example.gif" alt="_An animated GIF of running through the 'build from scratch' source code, just to show it works exactly as-is." />
 
 4 out of 5 web devs have experienced the following:
 
@@ -44,7 +42,7 @@ hugo server -D
 
 ## Or... use this very repo as a submodule instead
 
-![_Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it._](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example2.gif)
+<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/example2.gif" alt="Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it." />
 
 ```bash
 # You can't use submodules unless you're already using git. So let's start with that.
@@ -71,9 +69,7 @@ echo "Lorem ipsum dolor sit amet" >> content/_index.md
 hugo server -D
 ```
 
-I don't recommend it, because there are giant otherwise-useless GIFs in here you could probably do without. But it's an option if you want it - and a good way to dip your toes into the weird world of `git submodule`.
-
-There is **one big benefit** to using this as a submodule, however - and that's that it actually comes with **HTML comments in the rendered pages** to let you know exactly which layouts were pulled in, where.
+There is **one big benefit** to using this as a submodule - and that's that it actually comes with **HTML comments in the rendered pages** to let you know exactly which layouts were pulled in, where.
 
 So, for example, when I use this theme to build out [`build-100-websites.fun`](https://build-100-websites.fun), I can open the source code of any page generated with this theme and see comments for where the layouts begin and end:
 
@@ -89,5 +85,6 @@ For someone who is totally new to Hugo, I think these simple guidepost comments 
 
 ## Additional media: Splash images for [https://themes.gohugo.io/](https://themes.gohugo.io/)
 
-![_Screenshot of an example site saying "lorem ipsum dolor sit amet"_](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/screenshot.png)
-![_Smaller screenshot of an example site saying "lorem ipsum dolor sit amet"_](https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/tn.png)
+<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/screenshot.png" alt="Screenshot of an example site saying 'lorem ipsum dolor sit amet'." />
+
+<img src="https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/80afaad4d2f6d35656c069bba70a955d3bab0bb5/images/tn.png" alt="Smaller screenshot of an example site saying 'lorem ipsum dolor sit amet'." />
