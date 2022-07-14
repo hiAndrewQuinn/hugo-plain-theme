@@ -1,21 +1,18 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Hugo Plain Theme"
+name = "Hugo Plain Theme (**No** CSS/JS - minimum viable Hugo)"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
+licenselink = "https://github.com/hiAndrewQuinn/hugo-plain-theme/blob/master/LICENSE"
+description = "Minimum viable Hugo. No CSS. No JS. See Github link for a live demonstration of using it to serve one single, unformatted, HTML page."
+homepage = "https://github.com/hiAndrewQuinn/hugo-plain-theme"
+tags = ["hugo", "plain", "pure html", "no css", "no js", "starter theme", "boilerplate"]
 features = []
 min_version = "0.41.0"
 
-[author]
-  name = ""
-  homepage = ""
+demosite = "https://extraordinary-haupia-3d5735.netlify.app/"
 
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+[author]
+  name = "Andrew Quinn"
+  homepage = "https://andrew-quinn.me/"
+
