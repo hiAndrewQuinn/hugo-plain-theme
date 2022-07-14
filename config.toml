@@ -1,0 +1,8 @@
+# Added at the behest of 
+#
+#   https://github.com/gohugoio/hugoThemesSiteBuilder/blob/main/README.md#theme-configuration
+#
+
+[module]
+  [module.hugoVersion]
+    min = "0.41.0"
