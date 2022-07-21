@@ -42,7 +42,10 @@ hugo server -D
 
 ### [See it in action: A live example website generated from following those instructions exactly and nothing else](https://github.com/hiAndrewQuinn/hugo-plain-theme-example)
 
-_Want to know a little more theory? [Bryce Wray](https://www.brycewray.com/about/)'s ["Really getting started with Hugo"](https://www.brycewray.com/posts/2022/07/really-getting-started-hugo/) goes into even more detail on what Hugo used to be like, and how to keep things simple with it today._
+_Want to brush up on your theory?_
+
+- [Bryce Wray](https://www.brycewray.com/about/)'s ["Really getting started with Hugo"](https://www.brycewray.com/posts/2022/07/really-getting-started-hugo/) goes into even more detail on what Hugo used to be like, and how to keep things simple with it today, without even touching themes.
+- [zwbetz](https://zwbetz.com/)'s ["Make a Hugo Blog from Scratch"](https://zwbetz.com/make-a-hugo-blog-from-scratch/) takes you all the way from `hugo new site` to [a fully-fleshed out vertical slice of a blog](https://make-a-hugo-blog-from-scratch.netlify.app/).
 
 ## Or... use this very repo as a submodule instead
 
