@@ -42,6 +42,8 @@ hugo server -D
 
 ### [See it in action: A live example website generated from following those instructions exactly and nothing else](https://github.com/hiAndrewQuinn/hugo-plain-theme-example)
 
+_Want to know a little more theory? [Bryce Wray](https://www.brycewray.com/about/)'s ["Really getting started with Hugo"](https://www.brycewray.com/posts/2022/07/really-getting-started-hugo/) goes into even more detail on what Hugo used to be like, and how to keep things simple with it today._
+
 ## Or... use this very repo as a submodule instead
 
 ![Animated GIF of running the script below to add this repo as a submodule to a new Hugo site and then deploy it.](https://user-images.githubusercontent.com/53230903/178942209-abb0c319-7c69-47d6-990b-0f9f9ac4e1f4.gif)
